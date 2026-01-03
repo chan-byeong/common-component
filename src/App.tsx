@@ -2,6 +2,8 @@ import './app.css';
 import { Button } from './components/ui/button';
 import { buttonOverrides } from './app.css.ts';
 import { ComplexButton } from './components/templates/complex-button';
+import { BasicExample } from './components/templates/modal-example';
+
 import { useRef } from 'react';
 function App() {
   const parentRef = useRef<HTMLButtonElement>(null);
@@ -136,6 +138,9 @@ function App() {
               Google
             </a>
           </Button>
+        </div>
+        <div>
+          <BasicExample />
         </div>
       </div>
     </>

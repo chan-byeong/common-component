@@ -1,4 +1,4 @@
-import { Slot } from '../slot';
+import { Slot } from '../utils/slot';
 import { buttonVariants, sizeVariants } from './buttons.css';
 import { clsx } from 'clsx';
 

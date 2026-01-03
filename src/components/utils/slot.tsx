@@ -1,7 +1,7 @@
 import * as React from 'react';
 
 export const Slot = (
-  props: React.PropsWithChildren<{ ref: React.Ref<unknown> }>
+  props: React.PropsWithChildren<{ ref?: React.Ref<unknown> }>
 ) => {
   const { children, ref: parentRef, ...slotProps } = props;
 
